@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
 // Privacy Policy route
 app.get('/privacy-policy', (req, res) => {
   res.send(`
-    <h1>Privacy Policy</h1>
+    <h1>Privacy Policy of the company</h1>
     <p>This is where your application privacy policy will go. Make sure to describe how you handle user data, cookies, and other legal obligations regarding privacy.</p>
   `);
 });
